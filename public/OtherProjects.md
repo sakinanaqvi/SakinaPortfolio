@@ -1,23 +1,8 @@
-## Project 1
+## Neural Network Approaches for Computation of Soil Thermal Conductivity
 Description
-- Tags: Category 1
+- Tags: Publications
 - Badges:
   - Badge [blue]
 - Buttons:
-  - Link [https://example.com]
+  - Link [[https://example.com](https://www.mdpi.com/2227-7390/10/21/3957)https://www.mdpi.com/2227-7390/10/21/3957]
 
-## Project 2
-Description
-- Tags: Category 2
-- Badges:
-  - Badge [blue]
-- Buttons:
-  - Link [https://example.com]
-
-## Project 3
-Description
-- Tags: Category 3
-- Badges:
-  - Badge [blue]
-- Buttons:
-  - Link [https://example.com]
