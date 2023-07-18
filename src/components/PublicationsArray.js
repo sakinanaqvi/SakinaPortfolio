@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const parseOtherProjects = (mdContent) => {
+const parsePublications = (mdContent) => {
   const others = [];
   const lines = mdContent.split("\n");
 
