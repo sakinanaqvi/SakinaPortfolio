@@ -1,5 +1,5 @@
 ## Neural Network Approaches for Computation of Soil Thermal Conductivity
-Description
+Using Tensorflow after creating training set to better visualize and analyze data regarding the soil thermal conductivity.
 - Tags: Publications
 - Badges:
   - Badge [blue]
