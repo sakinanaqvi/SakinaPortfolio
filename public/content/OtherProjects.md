@@ -4,5 +4,5 @@ Description
 - Badges:
   - Badge [blue]
 - Buttons:
-  - Link [[https://example.com](https://www.mdpi.com/2227-7390/10/21/3957)https://www.mdpi.com/2227-7390/10/21/3957]
+  - Link [https://www.mdpi.com/2227-7390/10/21/3957)https://www.mdpi.com/2227-7390/10/21/3957]
 
