@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
 
-  const color = "purple";
+  const color = "teal";
 
   return (
     <>
