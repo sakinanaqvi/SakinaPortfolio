@@ -1,3 +1,3 @@
-Intel Corp.
+Intel Corporation
 University of British Columbia
 ID Tech Camps
