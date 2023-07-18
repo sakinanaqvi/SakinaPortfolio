@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const parsePublications = (mdContent) => {
+const parseOtherProjects = (mdContent) => {
   const others = [];
   const lines = mdContent.split("\n");
 
@@ -42,8 +42,8 @@ const parsePublications = (mdContent) => {
   return others;
 };
 
-const PublicationsArray = () => {
-  const [Publications, setPublications] = useState([]);
+const OtherProjectsArray = () => {
+  const [OtherProjects, setOtherProjects] = useState([]);
 
   useEffect(() => {
     fetch("/content/Publications.md")
@@ -54,14 +54,14 @@ const PublicationsArray = () => {
         return response.text();
       })
       .then((mdContent) => {
-        setPublications(parsePublications(mdContent));
+        setOtherProjects(parseOtherProjects(mdContent));
       })
       .catch((error) => {
         console.error("Error fetching markdown content:", error);
       });
   }, []);
 
-  return Publications;
+  return OtherProjects;
 };
 
-export default PublicationsArray;
+export default OtherProjectsArray;
