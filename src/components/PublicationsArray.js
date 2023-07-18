@@ -42,11 +42,11 @@ const parseOtherProjects = (mdContent) => {
   return others;
 };
 
-const OtherProjectsArray = () => {
-  const [OtherProjects, setOtherProjects] = useState([]);
+const PublicationsArray = () => {
+  const [Publications, setPublications] = useState([]);
 
   useEffect(() => {
-    fetch("/content/OtherProjects.md")
+    fetch("/content/Publications.md")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch markdown content");
@@ -54,14 +54,14 @@ const OtherProjectsArray = () => {
         return response.text();
       })
       .then((mdContent) => {
-        setOtherProjects(parseOtherProjects(mdContent));
+        setPublications(parsePublications(mdContent));
       })
       .catch((error) => {
         console.error("Error fetching markdown content:", error);
       });
   }, []);
 
-  return OtherProjects;
+  return Publications;
 };
 
-export default OtherProjectsArray;
+export default PublicationsArray;
