@@ -7,7 +7,7 @@ Description
 - Buttons:
   - GitHub Link [https://github.com/sakinanaqvi/TwitterProject]
     
-## Intel Presentation
+## Intel Project
 Description
 - ![600x200](https://logodownload.org/wp-content/uploads/2014/04/intel-logo-1-1.png)
 - Tags: Intel Presentation
